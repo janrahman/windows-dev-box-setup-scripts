@@ -24,6 +24,7 @@ function executeScript {
 #--- Setting up Windows ---
 executeScript "FileExplorerSettings.ps1";
 executeScript "RemoveDefaultApps.ps1";
+executeScript "personal_apps.ps1";
 
 
 #--- reenabling critial items ---
