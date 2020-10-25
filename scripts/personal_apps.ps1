@@ -1,3 +1,5 @@
+choco feature enable --name="'useRememberedArgumentsForUpgrades'"
+
 choco install -y vscode
 choco install -y notepadplusplus.install
 choco install -y git --package-parameters="'/GitAndUnixToolsOnPath /WindowsTerminal /NoShellIntegration'"
